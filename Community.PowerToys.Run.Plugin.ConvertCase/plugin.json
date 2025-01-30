@@ -6,9 +6,9 @@
   "Author": "polakv93",
   "Version": "0.88.0",
   "Language": "csharp",
-  "Website": "https://github.com/polakv93/Community.PowerToys.Run.Plugin.ConvertCase",
+  "Website": "https://github.com/polakv93/PowerToysRun-ConvertCase",
   "ExecuteFileName": "Community.PowerToys.Run.Plugin.ConvertCase.dll",
   "IcoPathDark": "Images\\convertcase.dark.png",
   "IcoPathLight": "Images\\convertcase.light.png",
-  "DynamicLoading": true
+  "DynamicLoading": false
 }
