@@ -27,6 +27,9 @@ jobs:
     - name: Publish
       run: dotnet publish --configuration Release --no-build --output publish
 
+    - name: Create ZIP
+      run: Compress-Archive -Path "publish/*" -DestinationPath "ConvertCase.zip"
+
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
@@ -38,6 +41,5 @@ jobs:
       with:
         draft: true
         prerelease: false
-        files: |
-          publish/
+        files: ConvertCase.zip
         token: ${{ secrets.GITHUB_TOKEN }}

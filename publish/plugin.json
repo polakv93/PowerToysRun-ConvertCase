@@ -1,0 +1,14 @@
+{
+  "ID": "297EF27906A94E45AFCE92DEC6119E20",
+  "ActionKeyword": "cc",
+  "IsGlobal": false,
+  "Name": "ConvertCase",
+  "Author": "polakv93",
+  "Version": "0.88.0",
+  "Language": "csharp",
+  "Website": "https://github.com/polakv93/PowerToysRun-ConvertCase",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.ConvertCase.dll",
+  "IcoPathDark": "Images\\convertcase.dark.png",
+  "IcoPathLight": "Images\\convertcase.light.png",
+  "DynamicLoading": false
+}
